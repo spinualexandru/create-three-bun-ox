@@ -1,6 +1,6 @@
 {
   "name": "create-three-bun-ox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A minimal Bun + Three.js template with oxlint and oxfmt.",
   "homepage": "https://github.com/spinualexandru/create-three-bun-ox#readme",
   "bugs": {

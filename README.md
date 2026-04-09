@@ -31,7 +31,7 @@ The server listens on `PORT` if it is set, otherwise it uses `3000`.
 If you publish this package to npm as `create-three-bun-ox`, users can scaffold it with:
 
 ```bash
-bun create create-three-bun-ox my-app
+bun create create-three-bun-ox
 ```
 
 You can also use the GitHub repo directly:
