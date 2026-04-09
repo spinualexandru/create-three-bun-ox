@@ -31,7 +31,13 @@ The server listens on `PORT` if it is set, otherwise it uses `3000`.
 Quickstart:
 
 ```bash
-bun create three-bun-ox
+bunx create-three-bun-ox my-app
+```
+
+Or with npm:
+
+```bash
+npm create three-bun-ox my-app
 ```
 
 You can also use the GitHub repo directly:
