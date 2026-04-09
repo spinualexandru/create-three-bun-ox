@@ -1,6 +1,18 @@
 # three-template
 
-Three.js template for Bun with oxlint and oxfmt.
+A minimal Three.js template for Bun.
+
+It includes:
+
+- a plane
+- a sphere resting on the plane
+- one directional light
+- `OrbitControls`
+- a tiny on-screen slider panel for the sphere position and light intensity
+
+## Requirements
+
+- Bun
 
 ## Setup
 
@@ -8,24 +20,29 @@ Three.js template for Bun with oxlint and oxfmt.
 bun install
 ```
 
-## Development
+## Run
 
 ```bash
 bun run dev
 ```
 
-## Checks
+The server listens on `PORT` if it is set, otherwise it uses `3000`.
+
+If you are using this repo as a `bun create` template, `bun create` can use the `start` script:
 
 ```bash
-bun run fmt
-bun run lint
-bun run typecheck
+bun create https://github.com/spinualexandru/three-bun-ox-template my-app
 ```
 
-## Versions
+## Scripts
 
-- Bun `1.3.11`
-- Three.js `0.183.2`
-- oxlint `1.59.0`
-- oxfmt `0.44.0`
-- TypeScript `next`
+```bash
+bun run start
+bun run dev
+bun run fmt
+bun run fmt:fix
+bun run fmt:check
+bun run lint
+bun run lint:fix
+bun run typecheck
+```
