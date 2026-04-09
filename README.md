@@ -1,4 +1,4 @@
-# three-template
+# create-three-bun-ox
 
 A minimal Three.js template for Bun.
 
@@ -28,10 +28,16 @@ bun run dev
 
 The server listens on `PORT` if it is set, otherwise it uses `3000`.
 
-If you are using this repo as a `bun create` template, `bun create` can use the `start` script:
+If you publish this package to npm as `create-three-bun-ox`, users can scaffold it with:
 
 ```bash
-bun create https://github.com/spinualexandru/three-bun-ox-template my-app
+bun create create-three-bun-ox my-app
+```
+
+You can also use the GitHub repo directly:
+
+```bash
+bun create github.com/spinualexandru/create-three-bun-ox my-app
 ```
 
 ## Scripts

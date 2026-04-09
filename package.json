@@ -1,6 +1,27 @@
 {
-  "name": "three-template",
-  "private": true,
+  "name": "create-three-bun-ox",
+  "version": "0.1.1",
+  "description": "A minimal Bun + Three.js template with oxlint and oxfmt.",
+  "homepage": "https://github.com/spinualexandru/create-three-bun-ox#readme",
+  "bugs": {
+    "url": "https://github.com/spinualexandru/create-three-bun-ox/issues"
+  },
+  "license": "MIT",
+  "author": "Alex Spinu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinualexandru/create-three-bun-ox.git"
+  },
+  "files": [
+    "README.md",
+    "index.html",
+    "server.ts",
+    "src",
+    "tsconfig.json",
+    ".oxlintrc.json",
+    ".oxfmtrc.json",
+    "bun.lock"
+  ],
   "type": "module",
   "module": "server.ts",
   "scripts": {
