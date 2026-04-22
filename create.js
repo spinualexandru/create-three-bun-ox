@@ -36,6 +36,7 @@ for (const file of files) {
   cpSync(join(__dirname, file), join(dest, file));
 }
 
+cpSync(join(__dirname, "assets"), join(dest, "assets"), { recursive: true });
 cpSync(join(__dirname, "src"), join(dest, "src"), { recursive: true });
 
 writeFileSync(
