@@ -5,10 +5,10 @@ A minimal Three.js template for Bun.
 It includes:
 
 - a plane
-- a sphere resting on the plane
-- one directional light
+- the Three.js logo loaded from a `.glb` with `GLTFLoader`, scaled and rested on the plane
+- one directional light and a hemisphere fill light
 - `OrbitControls`
-- a tiny on-screen slider panel for the sphere position and light intensity
+- a tiny on-screen slider panel for the logo rotation and light intensity
 
 ## Requirements
 
