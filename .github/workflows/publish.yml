@@ -28,9 +28,10 @@ jobs:
         with:
           bun-version: "1.4.3"
 
+      # Node 24 bundles npm >= 11.5.0, required for Trusted Publishing (OIDC)
       - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
           registry-url: https://registry.npmjs.org
 
       - name: Install dependencies
