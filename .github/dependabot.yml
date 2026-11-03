@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      # Mondays and Thursdays at 09:00 UTC.
+      cronjob: "0 9 * * 1,4"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      # Mondays and Thursdays at 09:00 UTC.
+      cronjob: "0 9 * * 1,4"
