@@ -46,7 +46,7 @@
   "devDependencies": {
     "@types/bun": "^1.4.4",
     "@types/three": "^0.187.0",
-    "oxfmt": "^0.76.0",
+    "oxfmt": "^0.77.0",
     "oxlint": "^1.91.0",
     "typescript": "^7.0.2"
   },
